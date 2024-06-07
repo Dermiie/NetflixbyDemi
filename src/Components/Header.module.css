@@ -1,0 +1,86 @@
+.section {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/b321426e-35ae-4661-b899-d63bca17648a/af8dd31b-8026-4681-bcb0-6b421a8316e6/NG-en-20220926-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+  height: 43rem;
+  width: 100%;
+  margin-top: 0%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 3.5rem;
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0%;
+  color: #e50914;
+}
+.header button {
+  background-color: #e50914;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0.43rem 1.1rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.header-content {
+  color: white;
+  max-width: 950px;
+  padding: 8.4rem 9.7rem;
+  margin: auto;
+  text-align: center;
+}
+.header-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 3.5rem;
+  margin-bottom: 0%;
+}
+.p1 {
+  font-size: 1.6rem;
+  font-weight: 100;
+  margin-top: 1rem;
+}
+.p2 {
+  font-weight: 100;
+}
+.header-content form {
+  height: 3.75rem;
+  width: 40rem;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header-content input {
+  height: 100%;
+  width: 25rem;
+}
+::placeholder {
+  padding: 0.4rem;
+  font-size: 1rem;
+}
+.header-content button {
+  background-color: #e50914;
+  font-size: 1.5rem;
+  border: none;
+  color: white;
+  height: 100%;
+  width: 12.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 40rem) {
+  .section{
+    height: 100vh;
+    width: 100%;
+  }
+}

@@ -1,0 +1,111 @@
+.section {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/45082c39-e6d5-4b02-8867-e38fe32ed3af/ee86969d-aaf4-4633-b269-c80113a1bc4e/NG-en-20220919-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: cover;
+}
+
+.badge {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0%;
+  color: #e50914;
+  margin-left: 1.9rem;
+  cursor: pointer;
+}
+
+.form {
+  margin: 2rem 15rem;
+  padding: 0 3.25rem;
+  align-items: center;
+}
+
+.form form {
+  padding: 3.75rem 4.25rem 2.5rem;
+  background-color: rgb(0, 0, 0, 0.8);
+  color: white;
+  max-width: 29.3rem;
+  margin: auto;
+  border-radius: 4px;
+}
+
+.input input {
+  width: 19.6rem;
+  height: 3.1rem;
+  margin-top: 0.6rem;
+  outline: none;
+  border-radius: 4px;
+  background-color: rgb(68, 68, 68);
+}
+
+.invalid {
+  border-bottom: 3px solid orange;
+}
+.invalid-text {
+  margin: 0rem;
+  text-align: start;
+  color: orange;
+  font-size: small;
+  font-weight: lighter;
+}
+
+.form button {
+  width: 19.6rem;
+  height: 3.1rem;
+  background-color: #e50914;
+  border-radius: 4px;
+  border: none;
+  margin-top: 2rem;
+  color: white;
+  font-weight: 600;
+  font-size: medium;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: smaller;
+  color: darkgray;
+}
+
+.checkbox input {
+  background-color: rgb(252, 248, 248);
+  appearance: none;
+  height: 1rem;
+  width: 1rem;
+  vertical-align: bottom;
+}
+.checkbox input:checked {
+  background-color: darkgrey;
+}
+.sign-up {
+  color: rgb(119, 119, 119);
+  font-size: smaller;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+span {
+  color: white;
+}
+
+.footer {
+  background-color: rgb(0, 0, 0, 0.6);
+  margin-top: 5rem;
+  color: rgb(119, 119, 119);
+}
+.footer-content {
+  width: 58rem;
+  margin: auto;
+  padding: 1.87rem 0rem;
+}
+
+.footer-content ul {
+  list-style: none;
+  display: grid;
+  padding: 0%;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-areas:
+    'l1 l2 l3 l4'
+    'l5 l6 . .';
+}
